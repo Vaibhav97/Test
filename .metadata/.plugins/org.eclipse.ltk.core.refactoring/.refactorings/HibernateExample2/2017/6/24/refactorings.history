@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 2 elements from project &apos;HibernateExample2&apos;&#x0D;&#x0A;- Original project: &apos;HibernateExample2&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     HQLExample.HQLExample1.java&#x0D;&#x0A;     HQLExample.package-info.java" description="Delete elements" element1="/src&lt;HQLExample{package-info.java" element2="/src&lt;HQLExample{HQLExample1.java" elements="2" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1497217555479" subPackages="false" version="1.0"/>
+</session>

@@ -1,0 +1,45 @@
+package FARMER;
+
+import org.hibernate.cfg.Configuration; 
+import org.hibernate.SessionFactory;
+import org.hibernate.Session;
+
+public class InsertFarmer 
+{
+	public static void main(String[] args) 
+	{
+		Address add = new Address();
+		add.setPin(422401);
+		add.setCity("Nashik");
+		add.setState("Maharashtra");
+		add.setArea("Adgaon");
+		
+		Farmers f1 = new Farmers();
+		f1.setAadharno(70);
+		f1.setName("Taha");
+		//f1.setAddress(add);
+		/*
+		System.out.println("Name: "+f1.getName());
+		System.out.println("Aadhar No: "+f1.getAadharno());
+		Address addnew = f1.getAddress();
+		System.out.println("Address: "+f1.getAddress().getArea()+", "+addnew.getCity()+", "+addnew.getState()+", PIN-"+addnew.getPin());
+		*/
+		SessionFactory sessionfactory = new Configuration().configure().buildSessionFactory();
+		SessionFactory sessionfactory2 = new Configuration().configure().buildSessionFactory();
+		Session session = sessionfactory.openSession();
+		Session session2 = sessionfactory2.openSession();
+		
+		session2.beginTransaction();
+		session2.save(add);
+		session2.getTransaction().commit();
+		System.out.println("Records Inserted in Address Successfully...");
+		session2.close();
+		
+		session.beginTransaction();
+		session.save(f1);
+		session.getTransaction().commit();
+		System.out.println("Records Inserted in Farmers Successfully...");
+		session.close();
+		
+	}
+}

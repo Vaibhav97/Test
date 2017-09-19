@@ -1,0 +1,6 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:BeanC,org.eclipse.launchbar.core.descriptorType.default\:Client1,org.eclipse.launchbar.core.descriptorType.default\:Exam,org.eclipse.launchbar.core.descriptorType.default\:HQLExample1,org.eclipse.launchbar.core.descriptorType.default\:InsertExample,org.eclipse.launchbar.core.descriptorType.default\:InsertFarmer,org.eclipse.launchbar.core.descriptorType.default\:New_configuration,org.eclipse.launchbar.core.descriptorType.default\:RecieverExample,org.eclipse.launchbar.core.descriptorType.default\:SenderExample,org.eclipse.launchbar.core.descriptorType.default\:Server1,org.eclipse.launchbar.core.descriptorType.default\:Tomcat v7.0 Server at localhost
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:BeanC/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:BeanC/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
